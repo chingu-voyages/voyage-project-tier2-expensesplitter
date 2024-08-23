@@ -1,4 +1,4 @@
-# voyage-project-tier1-expense-splitter
+# voyage-project-tier2-expense-splitter
 
 ## Table of Contents
 

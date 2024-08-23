@@ -77,7 +77,7 @@ implement to enhance this app, if time permits.
     - Member/Participant ID
     - Member/Participant Name
   - [ ] Users should be able to choose, for a particular participant, the weight of their contribution to the total expense
-    - E.g: if it is my boyfriend’s birthday party, I want to contribute 50% from the total group expense which means that I will pay 50% of the total amount while the other 50% will be distributed equally among all other participants
+    - E.g: If a user decides to cover 40% of the total expense for a group dinner, they can specify their contribution as 40%. The remaining 60% will be distributed equally among the other participants.
     - The weight of the contribution should be set to 0 by default (every participant contributes equally)
   - [ ] Users should be able to edit the details of an expense group, except for Group ID
   - [ ] Users should be able to remove a particular expense group
@@ -108,10 +108,8 @@ implement to enhance this app, if time permits.
   
   - [ ] User creating an expense can choose to upload a proof of expense or a receipt. The receipt can be a photo or a pdf or whatever other format of your choice
   - [ ] The receipt should be available/visible at the group level, as well as at the expense level
-  - [ ] For storage, an external third party can be used from the list below or another solution of your choice:
-    - [Firebase Firestore](https://firebase.google.com/docs/storage/web/upload-files) has free storage buckets for up to 5GB storage, 50k/day download operations, 20k/day upload operations but limited to only one free bucket per project
-    - [Amazon S3](https://aws.amazon.com/s3/?did=ft_card&trk=ft_card) offers a 12 months free trial for 5GB, 20k Get requests, 2000 put requests
-    - [Cloudinary](https://cloudinary.com/documentation/frontend_sdks) has a free tier for 3 users per account and up to 25GB of storage
+  - [ ] For storage, an external third party can be used from the list available in the Structure section
+    
 
 - Summary and Visualization
 
@@ -132,9 +130,15 @@ implement to enhance this app, if time permits.
 - Data Persistence
 
   - [ ] Implement local storage to save expense group data in the browser
-  - [ ] Implement cloud storage for storing receipts as described in the previous sections
+  
   - [ ] Add ability to export data (e.g., PDF, Excel or as a chart)
 
+- Structure
+- [ ] Implement cloud storage for storing receipts using one of the providers in the list below or one of your own choice:
+    - [Firebase Firestore](https://firebase.google.com/docs/storage/web/upload-files) has free storage buckets for up to 5GB storage, 50k/day download operations, 20k/day upload operations but limited to only one free bucket per project
+    - [Amazon S3](https://aws.amazon.com/s3/?did=ft_card&trk=ft_card) offers a 12 months free trial for 5GB, 20k Get requests, 2000 put requests
+    - [Cloudinary](https://cloudinary.com/documentation/frontend_sdks) has a free tier for 3 users per account and up to 25GB of storage
+  
 - User Interface and Experience
 
   - [ ] Ensure the application provides a seamless user experience for managing expenses and viewing balances
@@ -186,7 +190,7 @@ implement to enhance this app, if time permits.
 - Data Persistence
 
   - [ ] Expense data persists across browser sessions using local storage
-  - [ ] Receipt proofs can be consulted at any moment
+  - [ ] Receipt proofs can be consulted at any moment when viewing the details of an expense or when viewing the details of a group expenses. A receipt proof can be viewed as attached to an expense/expense group and the actual receipt can also be viewed
 
 - Analytics
 

@@ -53,6 +53,10 @@ implement to enhance this app, if time permits.
 - [ ] This is a purely frontend application. No backend is required.
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app.
 - [ ] You may **_NOT_** use AI-based solution generators like GitHub Copilot.
+- [ ] Implement cloud storage for storing receipts using one of the providers in the list below or one of your own choice:
+    - [Firebase Firestore](https://firebase.google.com/docs/storage/web/upload-files) has free storage buckets for up to 5GB storage, 50k/day download operations, 20k/day upload operations but limited to only one free bucket per project
+    - [Amazon S3](https://aws.amazon.com/s3/?did=ft_card&trk=ft_card) offers a 12 months free trial for 5GB, 20k Get requests, 2000 put requests
+    - [Cloudinary](https://cloudinary.com/documentation/frontend_sdks) has a free tier for 3 users per account and up to 25GB of storage
 
 #### Styling
 
@@ -133,11 +137,6 @@ implement to enhance this app, if time permits.
   
   - [ ] Add ability to export data (e.g., PDF, Excel or as a chart)
 
-- Structure
-- [ ] Implement cloud storage for storing receipts using one of the providers in the list below or one of your own choice:
-    - [Firebase Firestore](https://firebase.google.com/docs/storage/web/upload-files) has free storage buckets for up to 5GB storage, 50k/day download operations, 20k/day upload operations but limited to only one free bucket per project
-    - [Amazon S3](https://aws.amazon.com/s3/?did=ft_card&trk=ft_card) offers a 12 months free trial for 5GB, 20k Get requests, 2000 put requests
-    - [Cloudinary](https://cloudinary.com/documentation/frontend_sdks) has a free tier for 3 users per account and up to 25GB of storage
   
 - User Interface and Experience
 

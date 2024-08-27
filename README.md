@@ -68,7 +68,7 @@ implement to enhance this app, if time permits.
 #### Functionality
 - Overview
 
-  - [ ] Develop a single-page application (SPA) that simulates an expense splitting system.
+  - [ ] Develop a single-page application (SPA) for splitting group expenses.
 
 - Expense Group Management
 
